@@ -1,0 +1,9 @@
+#!/bin/bash
+# Inside postBuild
+
+# Convert notebook to HTML without code cells
+jupyter nbconvert provinceszipped.ipynb --no-input --to html
+
+# Move HTML file to a location that's publicly downloadable (e.g., for Binder/JupyterHub)
+mkdir -p ./public
+mv provinceszipped.html ./public/
