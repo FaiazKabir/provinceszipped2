@@ -1,5 +1,5 @@
 # Core application dependencies
-dash==2.11.1
+dash
 plotly==5.18.0
 pandas==2.1.4
 
@@ -14,7 +14,7 @@ rtree==1.1.0
 numpy==1.26.3
 gdal==3.7.2
 click==8.1.7
-Flask==2.3.2
+Flask
 Jinja2==3.1.2
 
 # For GeoJSON handling
