@@ -6,4 +6,4 @@ jupyter nbconvert provinceszipped.ipynb --no-input --to html
 
 # Move HTML file to a location that's publicly downloadable (for Binder or similar)
 mkdir -p ./public
-mv yourNotebook.html ./public/
+mv provinceszipped.html ./public/
