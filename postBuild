@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Execute the notebook and convert to HTML (no code cells)
-jupyter nbconvert yourNotebook.ipynb --execute --no-input --to html
+jupyter nbconvert provinceszipped.ipynb --execute --no-input --to html
 
 # Create a directory for public files and move the HTML there
 mkdir -p ./public
-mv yourNotebook.html ./public/
+mv provinceszipped.html ./public/
